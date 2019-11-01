@@ -1,0 +1,29 @@
+{
+    "name": "lalocespedes/cfdi",
+    "description": "CFDI SAT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "respect/validation": "^1.1",
+        "nesbot/carbon": "^1.21"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Cespedes",
+            "email": "lalocespedes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "lalocespedes\\Cfdi\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.2",
+        "phpunit/phpunit": "^6.5"
+    }
+}
